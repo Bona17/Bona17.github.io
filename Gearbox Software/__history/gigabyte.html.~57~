@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Aorus</title>
+		<link href="Css/style1.css" rel="stylesheet" />
+
+	</head>
+	<body>
+		<h1><div class="site-blok">
+    <nav>
+			<div class="menu">
+		<ul>
+		<img alt="" src="Images/logo.png" />
+			<li><a href="technology.html">Продукция</a></li>
+			<li><a href="index.html">Новости</a></li>
+			<li><a href="index.html">Купить</a></li>
+			
+		</ul>
+			</div>
+			</nav>
+		</h1>
+		<hr />
+		<p>
+<div class="slides">
+            <ul> 
+                <li><img src="Images/1.png" title="" alt="" />
+                </li>
+                <li><img src="Images/2.jpg" title="" alt="" />
+                </li>
+                <li><img src="Images/3.jpg" title="" alt="" />
+                </li>
+                <li><img src="Images/4.jpg" title="" alt="" />
+                </li>
+              
+            </ul>
+</div>
+</p>
+			<div class="p1"> 
+		<p>
+			About Aorus</p></div>
+		<p>
+		
+		<div class="p2"> 
+		<p>Enter the Falcon</p></div>
+		<p>
+			AORUS, a premium gaming brand powered by GIGABYTE, delivers a full spectrum of gaming products ranging from gaming laptops, motherboards, graphics cards, mechanical gaming keyboards, to many other gaming hardware and gears, offering the most extreme gaming experiences for enthusiasts worldwide!</p>
+		<p>
+		<div class="p3"> 
+			<p>Team Up. Fight On.</p></div>
+		<p>
+			AORUS shares the same passion with gamers who devote their heart and soul to gaming. With AORUS, the pinnacle of our hardware excellence, we are committed to bring a wide array of gaming innovation that delivers ultimate performance and exemplifies the PC&rsquo;s capability for bringing gamers unprecedented delights. AORUS will continue to take parts in global gaming events, connecting with the community and actively listening to gamers&rsquo; desires in order to create marvelous products that meet gamers&rsquo; genuine needs. We are looking to team up with gamers in their quest for gaming, to challenge the limits without fear, and to fight on as we rise to the ultimate glory!</p>
+		<hr />
+		<p>
+			Copyright&copy;2019 GIGABYTE Technology Co., Ltd. All rights reserved.</p>
+		<p>
+			All intellectual property rights, including without limitation to copyright and trademark of this work and its derivative works are the property of, or are licensed to, GIGABYTE Technology Co., Ltd. Any unauthorized use is strictly prohibited.</p>
+			</div>
+	</body>
+</html>

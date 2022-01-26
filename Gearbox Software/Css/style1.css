@@ -1,0 +1,181 @@
+﻿body{background-color: black;
+max-width: 1440px;
+max-height: 1000px;
+margin: 0 auto;}
+@font-face {
+    font-family:"myriad-pro";
+    src:url("https://use.typekit.net/af/1b1b1e/00000000000000000001709e/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/1b1b1e/00000000000000000001709e/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/1b1b1e/00000000000000000001709e/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+    }    
+.footer{border: 10px solid #696969;
+    background-color: #696969;
+height: 50px;
+width: 1440px;
+display:flex;}
+.footer p{font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+padding-top:15px;
+padding-left:100px;
+color: white}
+article{width: 1440px;
+    height: 600px;
+margin-top:-100px;
+margin-bottom:180px;}
+
+
+.header div {
+    float: left; /*Задаем обтекание*/
+    text-align: center; /*Центрируем текст по горизонтали*/
+
+   }
+header{width: 1440px;
+    height: 200px;
+margin-top: 20px;}
+
+.menu {margin-top:10px;}
+.menu > ul
+{
+display:flex;
+align-items:center;
+ }
+.menu li
+ {
+list-style:none;
+padding:5px;
+position:relative;
+}
+.menu li:hover
+{
+cursor: pointer;
+}
+
+.menu li a
+{
+    font:30px Impact, Times, serif;
+    color:white;
+    text-decoration:none;
+    padding-left:46px;
+    color:#ffc368;
+	text-shadow: 0 0 5px #000, 0 0 10px #000, 0 0 15px #000, 0 0 10px #D6750F, 0 0 15px #D6750F, 0 0 20px #D6750F, 0 0 25px #D6750F;
+	color: #ffc368;
+}
+.menu li a:hover
+{
+    color:#ac542e;
+}
+.menu ul li:hover .dropdown
+{
+     display: block;
+}
+   .dropdown li a {font-size: 20px;
+    padding-right:0px;
+    padding-left:0px;
+} 
+.dropdown 
+{
+        position: absolute;
+        top:100%;
+        display: none;
+        z-index:3;
+text-align: center;
+        border:solid thin;
+background-color: #696969;
+}
+/* Собственно сам слайдер */
+/* Блок слайдера*/
+.slider{
+	width: 1440px; 
+	position: relative;
+	padding-top: 40%; 
+	padding-bottom: 11%;
+	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+}
+
+.slider>img{
+	position: absolute;
+	left: 0; top: 0;
+	transition: all 0.5s;
+}
+
+.slider input[name=slide_switch] {
+	display: none;
+}
+
+.slider label {
+	
+	margin: 18px 0 0 18px;
+	border: 1px solid #055;
+	float: right;
+	cursor: pointer;
+	transition: all 0.5s;
+    opacity: 0.6;
+    margin-top:88px;
+}
+
+.slider label img{
+	display: block;
+}
+
+
+.slider input[name=slide_switch]:checked + label {
+	border-color: #666;
+	opacity: 1;
+}
+
+.slider input[name='slide_switch'] ~ img {
+	opacity: 0;
+	transform: scale(1.1);
+}
+.slider input[name=slide_switch]:checked + label + img {
+	opacity: 1;
+	transform: scale(1);}
+.MalImg{
+    width: 300px;
+    height:100px;
+}
+.BolImg{
+	height: 600px;
+	width: 1440px;
+} 
+
+@media	(max-width: 425px)  {
+    .footer{
+    height: 50px;
+    width: 425px;
+}
+    .footer p{font-size: 14px;
+    padding-left:0px;}
+
+    .header h1{font-family: myriad-pro;
+    width: 325px;
+    height: 35px;
+    font-size: 16px;
+
+    }
+    article {margin-bottom:-100px;}
+#Logo {width: 100px;
+    height: 40px;}
+    .MalImg{
+        width: 80px;
+        height:40px;
+    }
+    .BolImg{
+        height: 200px;
+        width: 425px;
+    } 
+    .slider{
+        width: 425px;
+    	padding-top: 10%; 
+margin-top:-115px;
+} 
+        .header div {
+            padding-bottom:1px;
+           }
+        header{width: 425px;}
+        footer {margin-top:-295px}
+        .menu li a
+{
+    font-size:14px;    padding-right: 4px;
+    padding-left:4px;}
+
+
+}
